@@ -30,13 +30,7 @@
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63432.56370732218!2d3.3805403434197467!3d6.453654935323133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf4cc9b07cf55%3A0xc4ae10b395418b9b!2sLagos%20Island!5e0!3m2!1sen!2sng!4v1695221986670!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <div class="contactForm animated">
-      <form action="https://formsubmit.co/cadetolati@gmail.com" method="POST" id="myForm">
-        <!---honeypot-->
-        <input type="text" name="_honey" style="display: none;">
-        <!--disable captcha -->
-        <input type="hidden" name="_captcha" value="false">
-        <!--redirecting to the success page-->
-        <input type="hidden" name="_next" value="https://hiidevportfolio.netlify.app/sucess.html">
+      <form action="" method="POST" id="myForm" onsubmit="sendEmail(); return false;">
 
         <div class="name-email">
           <input type="text" name="name" id="name" placeholder="enter your name" required>
@@ -90,5 +84,6 @@
   </footer>
 
   <script src="contact.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 </html>
