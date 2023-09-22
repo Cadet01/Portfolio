@@ -48,10 +48,6 @@ myForm.addEventListener("submit", function(e){
     alert("please enter email");
     return;
   }
-  if(subjectInput === ""){
-    alert("enter your subject");
-    return;
-  }
   myForm.reset();
 });
 
