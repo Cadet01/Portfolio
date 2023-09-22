@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Contact</title>
+  <link rel="stylesheet" href="contact.css">
+  <script src="https://kit.fontawesome.com/f96071fac1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="preloader">
+    <div class="loader"></div>
+  </div>
+  <header>
+    <nav>
+      <div class="logo">IO</div>
+      <div class="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <ul class="navList">
+        <li><a href="index.html" class="navlinks">back/home</a></li>
+      </ul>
+    </nav>
+    <div class="contact-text"><h1>Contact me</h1></div>
+  </header>
+  <section class="contactCon" id="CONTACT">
+    <div class="mapCon animated">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63432.56370732218!2d3.3805403434197467!3d6.453654935323133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf4cc9b07cf55%3A0xc4ae10b395418b9b!2sLagos%20Island!5e0!3m2!1sen!2sng!4v1695221986670!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="contactForm animated">
+      <form action="https://formsubmit.co/cadetolati@gmail.com" method="POST" id="myForm">
+        <div class="name-email">
+          <input type="text" name="name" id="name" placeholder="enter your name" required>
+          <input type="email" name="email" id="email" placeholder="enter your email" required>
+        </div>
+        <div class="subject">
+          <input type="text" name="subject" id="subject" placeholder="enter subject" required>
+        </div>
+        <div class="textarea">
+          <textarea name="message" id="Message" cols="30" rows="8"></textarea>
+        </div>
+        <div class="send"><input type="submit" value="send now" required></div>
+      </form>
+      <div id="validationMessage"></div>
+    </div>
+  </section>
+  <section class="contactContext">
+    <div class="contact-info">
+      <div class="contact-detail">
+        <div class="contact-detail-con contactAnimate">
+          <i class="fa-solid fa-phone icon"></i>
+          <div class="contact-detail-flex">
+            <h4>call me</h4>
+            <p>09017912210</p>
+          </div>
+        </div>
+        <div class="contact-detail-con contactAnimate">
+          <i class="fa-regular fa-envelope icon"></i>
+          <div class="contact-detail-flex">
+            <h4>email me</h4>
+            <p>cadetolati@gmail.com</p>
+          </div>
+        </div>
+        <div class="contact-detail-con contactAnimate">
+          <a href="https://instagram.com/hisaac_brown?igshid=OGQ5ZDc2ODk2ZA==" class="socialLinks"><i class="fa-brands fa-instagram"></i></i></a>
+          <a href="https://www.tiktok.com/@hii.dev?_t=8fqwO3T3TDJ&_r=1" class="socialLinks"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="https://www.twitter.com/__IsaacBrown" class="socialLinks"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/olatimehin-isaac-b23427260" class="socialLinks"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="contactInfo-formLink"><a href="#CONTACT">Send Message</a></div>
+    </div>
+  </section>
+  
+  <footer>
+    <div class="footerCopyRight">
+      <p><span>&#169;</span> 2023:All Right Reserve
+        <span><a href="#">hii.dev</a></span>
+      </p>
+    </div>
+  </footer>
+
+  <script src="contact.js"></script>
+</body>
+</html>
