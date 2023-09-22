@@ -36,23 +36,7 @@ myForm.addEventListener("submit", function(e){
   e.preventDefault();
   myForm.reset();
 });
-///////submitting form
-  function sendEmail(){
-    Email.send({
-      Host : "smtp.gmail.com",
-      Username : "cadetolati@gmail.com",
-      Password : "Temitayo123@",
-      To : 'mmant500@gmail.com',
-      From : document.getElementById("email").value,
-      Subject : "New contact from new Enquiry",
-      Body : "Name: " + document.getElementById("name").value
-           + "<br> Email: " + document.getElementById("email").value
-           + "<br> Subject: " + document.getElementById("subject").value
-           + "<br> Message: " + document.getElementById("Message").value
-  }).then(
-    message => alert("Message sent Sucessfully")
-  );
-  }
+
 
 
 

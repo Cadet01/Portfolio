@@ -30,7 +30,7 @@
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63432.56370732218!2d3.3805403434197467!3d6.453654935323133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf4cc9b07cf55%3A0xc4ae10b395418b9b!2sLagos%20Island!5e0!3m2!1sen!2sng!4v1695221986670!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <div class="contactForm animated">
-      <form action="" method="POST" id="myForm" onsubmit="sendEmail(); return false;">
+      <form action="index.php" method="POST" id="myForm">
 
         <div class="name-email">
           <input type="text" name="name" id="name" placeholder="enter your name" required>
@@ -40,7 +40,7 @@
           <input type="text" name="subject" id="subject" placeholder="enter subject">
         </div>
         <div class="textarea">
-          <textarea name="message" id="Message" cols="30" rows="8"></textarea>
+          <textarea name="message" id="message" cols="30" rows="8"></textarea>
         </div>
         <div class="send"><input type="submit" value="send now" required></div>
       </form>
